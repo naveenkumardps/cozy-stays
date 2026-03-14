@@ -32,7 +32,7 @@ const Services = () => (
             >
               <span className="text-3xl mb-4 block">{s.icon}</span>
               <h3 className="text-lg font-semibold text-foreground mb-2">{s.title}</h3>
-              <p className="text-sm text-muted-foreground leading-relaxed">{s.desc || s.description}</p>
+              <p className="text-sm text-muted-foreground leading-relaxed">{s.description}</p>
             </motion.div>
           ))}
         </div>
